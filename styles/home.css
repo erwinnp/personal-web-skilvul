@@ -1,1 +1,63 @@
+.home__wrapper {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
+.home__subhead {
+  color: #212529;
+  font-weight: 500;
+}
+
+.home__heading {
+  color: #212529;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.home__subtitle {
+  max-width: 590px;
+  font-size: 18px;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+.home__social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 32px;
+}
+
+.home__social > a:hover {
+  opacity: 70%;
+}
+
+.skill__wrapper {
+  margin-top: 54px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.skill__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.skill__wrapper > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.skill__item {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.skill__item:hover {
+  color: #212529;
+}

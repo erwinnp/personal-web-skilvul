@@ -25,3 +25,87 @@ button {
   cursor: pointer;
   border: none;
 }
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0;
+  border-bottom: 2px solid #212529;
+}
+
+.navbar__logo {
+  color: #212529;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+}
+
+.navbar__logo > span {
+  color: #6c757d;
+}
+
+.navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu__item {
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.menu__item:hover {
+  color: #212529;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  margin: 32px 0;
+}
+
+.footer__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer__banner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.footer__banner > p {
+  max-width: 540px;
+  font-size: 32px;
+  font-weight: 300;
+  color: #6c757d;
+}
+
+.footer__banner > a {
+  background-color: #212529;
+  color: #adb5bd;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.footer__banner > a:hover {
+  opacity: 90%;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 300;
+  color: #6c757d;
+}
