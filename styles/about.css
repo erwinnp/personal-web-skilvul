@@ -1,0 +1,49 @@
+.about {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.about__right {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.about__title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.about__paragraph {
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.about__cta {
+  text-align: center;
+  max-width: 240px;
+  background-color: #212529;
+  color: #adb5bd;
+  padding: 16px 32px;
+  margin-top: 12px;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.about__cta:hover {
+  opacity: 90%;
+}
