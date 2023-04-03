@@ -1,1 +1,1 @@
-## Technical Assignment - 1 | Personal Website
+## Technical Assignment - 1 | Personal Website (Development)
