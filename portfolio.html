@@ -8,6 +8,90 @@
     <link href="./styles/portfolio.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Portfolio Page</h1>
+    <header>
+      <nav>
+        <a href="./index.html" class="navbar__logo">WIN<span>DEV.</span></a>
+        <ul class="navbar__menu">
+          <li><a href="./index.html" class="menu__item">Home</a></li>
+          <li><a href="./about.html" class="menu__item">About</a></li>
+          <li><a href="./Blogs.html" class="menu__item">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="portfolio">
+        <div class="portfolio__wrapper">
+          <div class="portfolio__top">
+            <p class="portfolio__title">PORTFOLIO.</p>
+            <p class="portfolio__subtitle">
+              Showcasing my skills and creativity in creating responsive user
+              interface website
+            </p>
+          </div>
+          <div class="portfolio__bottom">
+            <article class="card">
+              <div class="img__wrapper">
+                <img
+                  src="./img/ArtifactUI.png"
+                  alt="project-img"
+                  class="card__img"
+                />
+              </div>
+              <div class="card__text">
+                <h1 class="card__title">Artifact Landingpage</h1>
+                <p class="card__summary">
+                  Modern and minimalist NFTs Art Gallery landing page.
+                </p>
+                <div class="tech__wrapper">
+                  <p class="tech__title">Build using</p>
+                  <div class="line"></div>
+                  <p class="tech__stack">Vite, ReactJS, TailwindCSS</p>
+                </div>
+              </div>
+              <a href="https://artifact-ui.vercel.app/" class="card__cta"
+                >Live Demo</a
+              >
+            </article>
+            <article class="card">
+              <div class="img__wrapper">
+                <img
+                  src="./img/Realprop.png"
+                  alt="project-img"
+                  class="card__img"
+                />
+              </div>
+              <div class="card__text">
+                <h1 class="card__title">Artifact Landingpage</h1>
+                <p class="card__summary">
+                  NFTs Real Estate website with modern design and responsive.
+                </p>
+                <div class="tech__wrapper">
+                  <p class="tech__title">Build using</p>
+                  <div class="line"></div>
+                  <p class="tech__stack">Vite, ReactJS, TailwindCSS</p>
+                </div>
+              </div>
+              <a href="https://www.realprop.io/en" class="card__cta"
+                >Live Site</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__content">
+        <p class="footer__title">CONTACT.</p>
+        <div class="footer__banner">
+          <p>Let’s connect and create something amazing together!</p>
+          <a href="mailto:moongraph21@gmail.com">moongraph21@gmail.com</a>
+        </div>
+      </div>
+      <p class="footer__copyright">
+        Copyright © 2023. All rights are reserved.
+      </p>
+    </footer>
   </body>
 </html>

@@ -8,6 +8,73 @@
     <link href="./styles/blogs.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Blogs Page</h1>
+    <header>
+      <nav>
+        <a href="./index.html" class="navbar__logo">WIN<span>DEV.</span></a>
+        <ul class="navbar__menu">
+          <li><a href="./index.html" class="menu__item">Home</a></li>
+          <li><a href="./about.html" class="menu__item">About</a></li>
+          <li><a href="./Portfolio.html" class="menu__item">Portfolio</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="blog">
+        <div class="blog__wrapper">
+          <div class="blog__top">
+            <p class="blog__title">BLOGS.</p>
+            <p class="blog__subtitle">
+              Some stuff that I write about whatever I want to share.
+            </p>
+          </div>
+          <article class="blog__bottom">
+            <div class="card__wrapper">
+              <div class="card__img">
+                <img src="./img/nvmoon.jpg" alt="blog" />
+              </div>
+              <div class="card__text">
+                <p class="card__date">02 March 2023</p>
+                <h5 class="card__title">
+                  How I setup my neovim config? (Windows & Linux)
+                </h5>
+                <p class="card__summary">
+                  Lorem ipsum dolor sit amet consectetur. Condimentum faucibus
+                  sollicitudin gravida ultrices suspendisse. Malesuada faucibus
+                  consectetur quam in.
+                </p>
+              </div>
+            </div>
+            <div class="card__wrapper">
+              <div class="card__img">
+                <img src="./img/vscode.jpg" alt="blog" />
+              </div>
+              <div class="card__text">
+                <p class="card__date">02 March 2023</p>
+                <h5 class="card__title">My Top 10 Vscode Extension!</h5>
+                <p class="card__summary">
+                  Lorem ipsum dolor sit amet consectetur. Condimentum faucibus
+                  sollicitudin gravida ultrices suspendisse. Malesuada faucibus
+                  consectetur quam in.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__content">
+        <p class="footer__title">CONTACT.</p>
+        <div class="footer__banner">
+          <p>Let’s connect and create something amazing together!</p>
+          <a href="mailto:moongraph21@gmail.com">moongraph21@gmail.com</a>
+        </div>
+      </div>
+      <p class="footer__copyright">
+        Copyright © 2023. All rights are reserved.
+      </p>
+    </footer>
   </body>
 </html>
